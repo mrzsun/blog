@@ -4,11 +4,11 @@
 
 # Site
 title: 马克叔
-subtitle: 马克叔的小窝
-description: 分享马克叔的技术博客与小说
+subtitle: 记录生活的点滴
+description: 分享技术博客与小说
 keywords:
 author: 马克叔
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -81,3 +81,10 @@ deploy:
   type: git
   repo: git@github.com:mrzsun/mrzsun.github.io.git
   branch: master
+
+feed: # RSS订阅插件
+  type: atom
+  path: atom.xml
+  limit: 0
+
+plugins: hexo-generate-feed
